@@ -1,0 +1,62 @@
+@import './RazerF5-Bold.otf';
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    /* padding: 0; */
+}
+
+body {
+    font-family: Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, apple color emoji, segoe ui emoji, Segoe UI Symbol, noto color emoji;
+}
+
+/* First Navbar */
+.nav-container {
+    height: 3.75rem;
+    background-color: #000;
+    border-bottom: 1px solid #44D62C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #999;
+}
+
+.nav-list ul {
+    display: flex;
+
+}
+
+.nav-list li {
+    list-style: none;
+    padding: 0 35px;
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+.nav-icon i {
+    padding: 0 35px;
+}
+
+.nav-list li:hover {
+    cursor: pointer;
+    color: #fff;
+}
+
+/* second Navbar */
+.second-nav {
+    background: #555;
+}
+
+.second-nav-text {
+    min-height: 44px;
+    color: #EEEEEE;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 0.75rem;
+}
+
+.video-section video {
+    max-width: 100%;
+    min-height: 800px;
+}
