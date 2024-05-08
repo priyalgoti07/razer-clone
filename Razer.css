@@ -7,6 +7,12 @@
 }
 
 body {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #fff;
+    /* text-align: left; */
+    background-color: #000;
     font-family: Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, apple color emoji, segoe ui emoji, Segoe UI Symbol, noto color emoji;
 }
 
@@ -59,4 +65,38 @@ body {
 .video-section video {
     max-width: 100%;
     min-height: 800px;
+}
+
+.into-tag {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    max-width: 988px;
+    text-align: center;
+
+}
+.inner{
+    padding: 4rem 0 1rem;
+}
+.container h1 {
+    color: #44D62C;
+    font-size: 4.5rem;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.second-heading {
+    font-weight: 700;
+    font-size: 1.095rem;
+}
+
+.section-para {
+    color: #999;
+    margin-top: 25px;
+    font-size: 1.125rem;
+    max-width: 940px;
+    line-height: 1.75rem;
+    font-weight: 300;
 }
