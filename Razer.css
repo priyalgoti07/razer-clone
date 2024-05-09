@@ -3,7 +3,7 @@
 * {
     box-sizing: border-box;
     margin: 0;
-    /* padding: 0; */
+    padding: 0;
 }
 
 body {
@@ -67,6 +67,7 @@ body {
     min-height: 800px;
 }
 
+
 .into-tag {
     display: flex;
     justify-content: center;
@@ -77,9 +78,11 @@ body {
     text-align: center;
 
 }
-.inner{
-    padding: 4rem 0 1rem;
+
+.inner {
+    padding: 3rem 0 1rem;
 }
+
 .container h1 {
     color: #44D62C;
     font-size: 4.5rem;
@@ -99,4 +102,32 @@ body {
     max-width: 940px;
     line-height: 1.75rem;
     font-weight: 300;
+}
+
+/* Intro-Desktop */
+.intro-desktop {
+    max-width: 1920px;
+}
+
+.intro-container {
+    background-image: url("razer-about-us-intro-desktop.jpg");
+    min-height: 470px;
+    background-position: center;
+}
+
+/* Description Paragaph */
+
+.des-para-container {
+    display: flex;
+    justify-content: center;
+}
+
+.description-paragaph {
+    max-width: 980px;
+    color: #999;
+    text-align: left;
+    font-size: 1.125rem;
+    font-weight: 300;
+    line-height: 1.75rem;
+
 }
