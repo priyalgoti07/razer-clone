@@ -197,12 +197,13 @@ body {
 .multipanel-container {
     margin: 0 auto;
     max-width: 1140px;
-    padding: 0 14px;
+    padding: 0 3rem;
 }
 
 .inner-multi-panel {
     display: flex;
     justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 
 .multip-header {
@@ -210,11 +211,15 @@ body {
     font-size: 3rem;
     text-align: left;
     line-height: 2.625rem;
-    margin: 2rem 4rem 0;
+    margin: 2rem 2rem 0;
 }
 
 .panel-container {
     max-width: 470px;
+}
+
+.panel-container:last-child {
+    margin-right: 33rem;
 }
 
 .listem-img {
@@ -222,9 +227,9 @@ body {
 }
 
 .panel-heading {
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: 700;
-    margin: 1rem 0 0.3125rem;
+    margin: 0 0 0.3125rem;
     columns: #fff;
 }
 
@@ -234,6 +239,10 @@ body {
     font-size: 1rem;
     line-height: 1.5em;
     padding: 7px 0px 20px;
+}
+
+.multipanel-last {
+    margin: 10px 0;
 }
 
 .link-tage {
