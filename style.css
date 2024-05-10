@@ -153,7 +153,8 @@ body {
 .container-tab {
     max-width: 1200px;
     margin: 0 auto;
-    border: 2px solid rebeccapurple;
+    padding: 0 30px;
+    /* border: 2px solid rebeccapurple; */
 }
 
 .header-tab {
@@ -163,16 +164,80 @@ body {
     font-weight: 700;
 }
 
-.tablist ol {
-    list-style: none;
-}
-
 .tablist li {
     display: inline-block;
-    padding: 0 1rem 0 0;
+    padding: 0 0.5rem;
     margin-bottom: 1rem;
 }
 
-.tablist-panel ol {
-    list-style-position: outside
+.tablist ol li:nth-child(1) {
+    color: #236e17;
+    border-bottom: 2px solid #44D62C;
+    padding: 0;
+}
+
+.tablist-panel li a {
+    text-decoration: underline;
+    text-underline-offset: 3px;
+}
+
+.tablist-panel {
+    padding: 15px 15px 0;
+}
+
+.tablist-panel li {
+    color: #999999;
+}
+
+.multipanel-component {
+    padding: 2rem 0;
+    background-color: #161616;
+}
+
+.multipanel-container {
+    margin: 0 auto;
+    max-width: 1140px;
+    padding: 0 14px;
+}
+
+.inner-multi-panel {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.multip-header {
+    color: #44D62C;
+    font-size: 3rem;
+    text-align: left;
+    line-height: 2.625rem;
+    margin: 2rem 4rem 0;
+}
+
+.panel-container {
+    max-width: 470px;
+}
+
+.listem-img {
+    margin: 1rem auto;
+}
+
+.panel-heading {
+    font-size: 2rem;
+    font-weight: 700;
+    margin: 1rem 0 0.3125rem;
+    columns: #fff;
+}
+
+.panel-paragraph {
+    font-weight: 300;
+    color: #999;
+    font-size: 1rem;
+    line-height: 1.5em;
+    padding: 7px 0px 20px;
+}
+
+.link-tage {
+    color: #44D62C;
+    font-size: 1rem;
+    font-weight: 300;
 }
