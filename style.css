@@ -250,3 +250,22 @@ body {
     font-size: 1rem;
     font-weight: 300;
 }
+
+/* management-panel */
+.management-panel {
+    padding: 2rem 0;
+    background-color: #000;
+    margin: 0 auto;
+}
+
+.managenent-container {
+    max-width: 1140px;
+    margin: 0 auto;
+    border: 2px solid rebeccapurple;
+}
+.management-header{
+    font-size: 3rem;
+    color: #44D62C;
+    margin: 32px 54px 0;
+    line-height: 2.625rem;
+}
