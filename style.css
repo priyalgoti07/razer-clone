@@ -259,13 +259,52 @@ body {
 }
 
 .managenent-container {
-    max-width: 1140px;
+    max-width: 1200px;
     margin: 0 auto;
-    border: 2px solid rebeccapurple;
+    padding: 0 30px;
 }
-.management-header{
+
+.management-header {
     font-size: 3rem;
     color: #44D62C;
-    margin: 32px 54px 0;
-    line-height: 2.625rem;
+    margin: 32px 76px 0;
+    line-height: 3.625rem;
+    text-transform: uppercase;
+    padding: 0;
+}
+
+.management-panel-ineer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.list-panel {
+    border-top: 1px solid #333;
+    box-sizing: border-box;
+    width: calc(1/2*100% - (1 - 1/2) * 132px);
+    margin: 0 33px;
+}
+
+.item-header {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #fff;
+    margin: 1rem 0 0;
+    text-transform: uppercase;
+}
+
+.item2-header {
+    color: #999;
+    font-size: 1rem;
+    line-height: 1.5em;
+    font-weight: 300;
+}
+
+.item-text-para {
+    margin: 1.5rem 0 0;
+    color: #999;
+    font-size: 1rem;
+    line-height: 1.5em;
+    font-weight: 300;
 }
