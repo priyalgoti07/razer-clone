@@ -277,13 +277,15 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    gap: 10px;
 }
 
 .list-panel {
     border-top: 1px solid #333;
-    box-sizing: border-box;
-    width: calc(1/2*100% - (1 - 1/2) * 132px);
-    margin: 0 33px;
+    /* box-sizing: border-box; */
+    /* width: calc(1/2*100% - (1 - 1/2) * 132px); */
+    max-width: 470px;
+
 }
 
 .item-header {
