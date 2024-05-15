@@ -275,17 +275,22 @@ body {
 
 .management-panel-ineer {
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-between;
-    gap: 10px;
+    max-width: 1000px;
+    margin: auto;
+    flex-wrap: wrap;
+
 }
 
 .list-panel {
     border-top: 1px solid #333;
     /* box-sizing: border-box; */
-    /* width: calc(1/2*100% - (1 - 1/2) * 132px); */
-    max-width: 470px;
+    width: calc(1/2*100% - (1 - 1/2) * 30px);
+    padding: 0 1rem 4rem 0;
+}
 
+.list-panel:nth-last-child(1) {
+    padding: 0 1rem 0 0;
 }
 
 .item-header {
