@@ -315,3 +315,46 @@ body {
     line-height: 1.5em;
     font-weight: 300;
 }
+
+/* GoGreen */
+.gogreen {
+    background-image: url('razer-about-us-sustainability-desktop.jpg');
+    background-size: cover;
+    min-height: 400px;
+    background-position: center;
+}
+
+.lef-container {
+    max-width: 1200px;
+    min-height: 400px;
+    margin: 0 auto;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-container-green {
+    position: absolute;
+    right: 0;
+    max-width: 450px;
+}
+
+.main-container-green h1 {
+    color: #44D62C;
+    margin: 0 0 0 0.5rem;
+    font-size: 2.25rem;
+    font-weight: 700;
+}
+
+.main-container-green p {
+    color: #888;
+    font-size: 1.125em;
+    font-weight: 300;
+    padding: 0 1rem;
+}
+
+.learn {
+    color: #44D62C;
+    margin: 20px 0 0 17px;
+}
