@@ -358,3 +358,69 @@ body {
     color: #44D62C;
     margin: 20px 0 0 17px;
 }
+
+/* Careers Selction */
+.careers-main {
+    background-image: url("razer-about-us-careers-desktop.jpg");
+    min-height: 400px;
+    background-size: cover;
+    background-position: center;
+}
+
+.right-careers {
+    max-width: 1200px;
+    min-height: 400px;
+    /* outline: 1px solid red; */
+    margin: 0 auto;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.right-container {
+    max-width: 570px;
+    padding: 0 1rem;
+}
+
+.right-careers h2 {
+    margin: 0 0 0.5rem;
+    font-weight: 700;
+    font-size: 2.25rem;
+    color: #44D62C;
+}
+
+.right-para {
+    font-weight: 700;
+    color: #fff;
+}
+
+/* ZVENTURES */
+.about-section {
+    background-image: url("razer-about-us-zventures-desktop.jpg");
+    min-height: 400px;
+    background-position: center;
+}
+
+.last-para {
+    color: #888;
+    font-size: 1.125em;
+    font-weight: 300;
+}
+
+.last-join {
+    color: #44D62C;
+    margin: 20px 0 0;
+}
+
+.main-center-selction {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.inner-selction h2 {
+    text-align: center;
+    /* margin: 3rem 0 2rem; */
+    font-weight: 700;
+    text-transform: none;
+    font-size: 2.25rem;
+}
