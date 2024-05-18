@@ -399,6 +399,7 @@ body {
     background-image: url("razer-about-us-zventures-desktop.jpg");
     min-height: 400px;
     background-position: center;
+    display: flex;
 }
 
 .last-para {
@@ -417,10 +418,57 @@ body {
     margin: 0 auto;
 }
 
+.inner-selction {
+    max-width: 890px;
+    text-align: center;
+}
+
 .inner-selction h2 {
     text-align: center;
     /* margin: 3rem 0 2rem; */
     font-weight: 700;
     text-transform: none;
     font-size: 2.25rem;
+    color: #44D62C;
+    margin: 3rem 0 2rem;
+}
+
+.inner-selction p {
+    color: #888;
+    font-size: 1.125em;
+    font-weight: 300;
+}
+
+.learn-section {
+    color: #44D62C;
+    margin: 20px 0 0;
+}
+
+/* Last paragraph Component */
+.paragraph-component {
+    background-color: #000;
+}
+
+.container-para {
+    max-width: 1200px;
+    margin: 0 auto;
+    border: 1px solid red;
+}
+
+.footer-content li {
+    list-style: none;
+    font-size: 12px;
+    color: #999;
+    padding-bottom: 0.75rem;
+}
+
+.label-para {
+    font-size: 12px;
+    font-weight: 400;
+    padding-bottom: 0.75rem;
+}
+
+.footer-content li:hover {
+    color: #fff;
+    text-decoration: underline;
 }
