@@ -446,13 +446,16 @@ body {
 
 /* Last paragraph Component */
 .paragraph-component {
-    background-color: #000;
+    background-color: #111;
 }
 
 .container-para {
     max-width: 1200px;
     margin: 0 auto;
     border: 1px solid red;
+    padding: 25px 30px 25px 0;
+    display: flex;
+    justify-content: space-between;
 }
 
 .footer-content li {
