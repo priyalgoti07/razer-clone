@@ -452,7 +452,6 @@ body {
 .container-para {
     max-width: 1200px;
     margin: 0 auto;
-    border: 1px solid red;
     padding: 25px 30px 25px 0;
     display: flex;
     justify-content: space-between;
@@ -471,7 +470,22 @@ body {
     padding-bottom: 0.75rem;
 }
 
+.footer-content:nth-last-child(2) li {
+    padding-bottom: 0;
+}
+
+.label-para:last-child {
+    color: #44D62C;
+    font-size: 0.9rem;
+    letter-spacing: 0.5px;
+}
+
 .footer-content li:hover {
     color: #fff;
     text-decoration: underline;
+}
+
+.sos-media {
+    width: 1.75rem;
+    height: 1.75rem;
 }
