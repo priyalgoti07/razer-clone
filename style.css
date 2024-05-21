@@ -449,10 +449,14 @@ body {
     background-color: #111;
 }
 
-.container-para {
+.fot-main-contaner {
     max-width: 1200px;
     margin: 0 auto;
     padding: 25px 30px 25px 0;
+}
+
+.container-para {
+
     display: flex;
     justify-content: space-between;
 }
@@ -488,4 +492,49 @@ body {
 .sos-media {
     width: 1.75rem;
     height: 1.75rem;
+}
+
+.copy-right-container {
+    margin: 0 0.75rem;
+}
+
+.border-line {
+    margin: 16px 0;
+    padding: 0 12px;
+    font-size: 12px;
+    border-bottom: 1px solid #555;
+}
+
+.footer-last {
+    color: #999999;
+    font-size: 12px;
+}
+
+.footer-ineer {
+    display: flex;
+}
+
+.foot-first {
+    padding-right: 2.3rem;
+}
+
+.foot-second li {
+    list-style: none;
+    display: inline;
+    padding: 0 16px;
+    border-right: 1px solid #999999;
+}
+
+.foot-second li:last-child {
+    border-right: none;
+}
+
+.inner-third li {
+    display: inline;
+    list-style: none;
+    padding: 0 5px;
+    border-right: 1px solid #999999;
+}
+.inner-third li:last-child{
+    border: none;
 }
