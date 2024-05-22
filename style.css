@@ -510,6 +510,12 @@ body {
     font-size: 12px;
 }
 
+.main-container-footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 16px;
+}
+
 .footer-ineer {
     display: flex;
 }
@@ -535,6 +541,10 @@ body {
     padding: 0 5px;
     border-right: 1px solid #999999;
 }
-.inner-third li:last-child{
+
+.inner-third li:last-child {
     border: none;
+}
+.inner-third li:nth-last-of-type(2) {
+    color: #fff;
 }
